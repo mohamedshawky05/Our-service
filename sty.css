@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:  linear-gradient(to right,#06086393,#06086396),url(image.jpeg);
+    background-size:cover;
+    background-position: center;
+}
+.n
+{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+h2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 700;
+
+}
+header ul li{    
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+header ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 55px 0;
+    font-size: larger;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+a input
+{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px; 
+    border: 2px solid transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-70%,-30);
+}
+
+a input:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+}
+@media (max-width:970px) {
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-weight: 300;
+    }
+    header ul li a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    header ul li{    
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+     a input
+{
+    font-size: 20px;
+    padding: 2px 5px;
+    border-radius: 10px; 
+    border: 2px solid transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50);
+}
+a input:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 55px 0;
+    font-size: 20px;
+}
+}
